@@ -868,7 +868,7 @@ class Main:
 			else:
 				continue
 
-		self.loop +=0.05
+		self.loop +=1
 if len(sys.argv) == 2:
 	if sys.argv[1] == "--help" or sys.argv[1] == "-h":
 		helpnote()
